@@ -64,10 +64,24 @@ ul
 {
     color: #3c3c3c;
 }
-/* * */
+*
 
 
 /* * header */
+
+/* header part1 */
+.home-header
+{
+    position: fixed;
+    width: 100vw;
+}
+
+.contact-sepate
+{
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+}
 
 .fading-orang
 {
@@ -110,6 +124,7 @@ ul
 {
     border-bottom: 1px #e96b56 solid ;
 }
+/* / */
 
 /* header part 2 */
 
@@ -117,10 +132,8 @@ ul
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
-    padding-block: 1.5vh ;
-    margin-inline: 8vw; 
-}
+    background-color: #ff6600;
+    padding: 1.5vh 8vw;}
 
 .home-header-nav-left{
     padding-left: 1vw;
@@ -128,6 +141,7 @@ ul
 
 .home-header-nav-left-logo
 {
+    font-size: 2vw;
     border-left: 10px #e96b56 solid;
     padding-left: 1vw;
 }
