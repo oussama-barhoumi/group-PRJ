@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
+html{
+    scroll-behavior: smooth;
+}
     .topbar {
       background: #2b2b2b;
       color: #ffffff;
@@ -54,8 +57,10 @@
     padding: 20px 0 20px 7rem;
 }
 .Services-top h1{
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 28px;
+    line-height: 33.6px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     color: #545454;
 }
 .Services-top a{
@@ -134,7 +139,7 @@
 }
 .OurServices div:hover{
     background-color: #E96B56;
-
+    cursor: pointer;
 }
 .OurServices div:hover i{
     color: #E96B56;
@@ -149,7 +154,99 @@
 .OurServices div:hover p{
     color: white;
 }
+.OurSkills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 7rem;
+}
+.OurSkills-top{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+.OurSkills-top h1{
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    line-height: 38.4px;
+    font-weight: 700;
+    color: #545454;
+}
+.OurSkills-top h1::after{
+    content: '';
+    position: absolute;
+    top: 3.5rem;
+    left: 16.5rem;
+    width: 50px;
+    height: 3px;
+    background-color: #E96B56;
+}
+.OurSkills-top p{
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 16px;
+    line-height: 24px;
+    color: #444444;
+    font-weight: 400;
+}
+.OurSkills-main{
+   display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 25px;
+    width: 84.8%;
+    
+}
+.OurSkills-main .SkillsImg img{
+    width: 630px;
+}
+.RightSkills .blabla h1 {
+    font-size: 32px;
+    line-height: 38.4px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    color: #545454;
+}
+.RightSkills .blabla p{
+    width:39.8rem;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+   font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+    line-height: 24px;
+    color: #797878;
+}
+.RightSkills .progressBar progress{
+     width: 100%;
+  height: 10px;
+  border-radius: 0%;
 
+}
+.RightSkills .progressBar progress::-webkit-progress-value{
+   background-color: #E96B56;
+}
+.RightSkills .progressBar progress::-webkit-progress-bar {
+    background-color: #ECECEC;
+}
+.progressBars{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.progressBar span{
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    color: #444444;
+}
+.spans{
+    display: flex;
+    justify-content: space-between;
+}
 
 /* *common items */
 
