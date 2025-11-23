@@ -48,6 +48,108 @@
     color: #ff6600;
 }
 
+.Services-top{
+    height: 15vh;
+    background-color: #F8F8F8;
+    padding: 20px 0 20px 7rem;
+}
+.Services-top h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: #545454;
+}
+.Services-top a{
+    text-decoration: none;
+    color: #E96B56;
+}
+.Services-top div{
+    display: flex;
+   align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.Services-top .spanslash{
+    font-size: 12px;
+    color: lightgrey;
+}
+.Services-top div a,div span{
+    font-size: 15px;
+}
+.Services-top div{
+    margin-bottom: 10px;
+}
+.MainServices{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-block: 4rem;
+}
+.MainServices .OurServices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.MainServices .OurServices div{
+    width: 410px;
+    height: 350px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    border: 1px solid lightgray;
+    padding-inline: 25px;
+    background-color: white;
+    transition: .3s;
+}
+.MainServices .OurServices .icon-box{
+    width: 65px;
+    height: 65px;
+    background-color: #E96B56;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -7px -7px 0px 0px #feded9;
+   
+    border: none;
+}
+.MainServices i{
+    font-size: 28px;
+    color: #fff;
+}
+.OurServices div h3{
+    font-size: 25px;
+    font-weight: 600;
+    color: #545454;
+}
+.OurServices div p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #545454;
+}
+.OurServices div:hover{
+    background-color: #E96B56;
+
+}
+.OurServices div:hover i{
+    color: #E96B56;
+}
+.OurServices div:hover .icon-box{
+    background-color: white;
+        box-shadow: -7px -7px 0px 0px #f88e7e;
+}
+.OurServices div:hover h3{
+    color: white;
+}
+.OurServices div:hover p{
+    color: white;
+}
+
 
 /* *common items */
 
