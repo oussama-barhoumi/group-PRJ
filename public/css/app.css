@@ -2,6 +2,22 @@
     margin: 0px;
     padding: 0px;
 }
+    .topbar {
+      background: #2b2b2b;
+      color: #ffffff;
+      font-size: 14px;
+      padding: 5px 0;
+    }
+
+    .topbar a {
+      color: #ffffff;
+      text-decoration: none;
+      margin-right: 20px;
+    }
+
+    .navbar-nav .nav-link.active {
+      color: #d9534f !important; 
+    }
 .container1-about {
     background-color: #d1d1d1;
     display: flex;
