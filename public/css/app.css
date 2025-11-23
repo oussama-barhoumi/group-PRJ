@@ -72,11 +72,13 @@ ul
 /* header part1 */
 .home-header
 {
-    position: fixed;
+    position: sticky;
+    top: 0;
     width: 100vw;
+    /* z-index: 999; */
 }
 
-.contact-sepate
+.contact-separate
 {
     display: flex;
     align-items: center;
@@ -234,5 +236,31 @@ ul
     display: flex;
 }
 /* fin header part 2 */
+
+/* *fin header */
+
+/* *mid1 */
+
+.mid1
+{
+    background-image: url(../assets/img/hero-carousel/hero-carousel-1.jpg);
+    background-position: 100% 49%;
+    background-size: cover;
+    height: 71vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    z-index: -1;
+}
+
+.mid1-chevron-right ,.mid1-chevron-left
+{
+    background-color: transparent;
+    border: none;
+    color: #ff6600;
+    width: 10%;
+    /* position: absolute; */
+}
 
 /* * */
