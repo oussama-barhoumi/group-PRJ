@@ -103,6 +103,8 @@
     row-gap: 20px;
     border: 1px solid lightgray;
     padding-inline: 25px;
+    background-color: white;
+    transition: .3s;
 }
 .MainServices .OurServices .icon-box{
     width: 65px;
@@ -120,7 +122,33 @@
     font-size: 28px;
     color: #fff;
 }
+.OurServices div h3{
+    font-size: 25px;
+    font-weight: 600;
+    color: #545454;
+}
+.OurServices div p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #545454;
+}
+.OurServices div:hover{
+    background-color: #E96B56;
 
+}
+.OurServices div:hover i{
+    color: #E96B56;
+}
+.OurServices div:hover .icon-box{
+    background-color: white;
+        box-shadow: -7px -7px 0px 0px #f88e7e;
+}
+.OurServices div:hover h3{
+    color: white;
+}
+.OurServices div:hover p{
+    color: white;
+}
 
 
 /* *common items */
