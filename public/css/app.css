@@ -563,6 +563,8 @@ ul
 
 
 
+
+
 .mid2-item:nth-child(1)
 {
     animation-delay: 0s;
@@ -640,3 +642,40 @@ li>svg
 
 
 /* *fin mid3 */
+
+.font-st{
+        color: rgb(255, 255, 255);
+        font-size: large;
+        margin-bottom: 1vw;
+    }
+    .input-footer{
+        background-color: #464646;
+        border: #333;
+        border-radius: 10vw;
+        width: 42vw;
+        height: 5vh;
+        position: relative;
+    }
+    .btn-footer{
+        background: rgb(221, 106, 68);
+        color: aliceblue;
+        border-radius: 10vw;
+        height: 2.3vw;
+        width: 7vw;
+        border:none;
+        position: absolute;
+        left: 63.5vw;
+        z-index: 100000;
+        
+    }
+    .bi3{
+        border-radius: 700vw;
+        border: #d9534f solid 1px;
+        padding: 0.5vw;
+        font-size: 1.5vw;
+    }
+    .bi3:hover{
+        background-color: #d9534f;
+        color: white;
+        transition: 0.3s;
+    }
