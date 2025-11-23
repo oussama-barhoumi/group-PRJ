@@ -47,3 +47,208 @@
 .bi:hover {
     color: #ff6600;
 }
+
+
+/* *common items */
+
+a
+{
+    text-decoration: none;
+}
+
+ul
+{
+    list-style: none;
+}
+
+.color-orang
+{
+    color: #e96b56;
+}
+
+.color-white
+{
+    color: white;
+}
+
+.color-grey
+{
+    color: #b1b1b1;
+}
+
+.color-dark-grey
+{
+    color: #3c3c3c;
+}
+*
+
+
+/* * header */
+
+/* header part1 */
+.home-header
+{
+    position: fixed;
+    width: 100vw;
+}
+
+.contact-sepate
+{
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+}
+
+.fading-orang
+{
+    transition: all 0.25s;
+}
+
+.fading-orang:hover
+{
+    color: #e96b56;
+}
+
+
+.home-header-contact
+{
+    background-color: #3c3c3c ;
+    padding: 1.25vh 9vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-header-contact-left
+{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    gap: 1.75vw;
+}
+
+.home-header-contact-right
+{
+    display: flex;
+    align-items: center;
+    gap: 1.45vw;
+}
+
+
+
+.home-header-contact-left-email>a:hover
+{
+    border-bottom: 1px #e96b56 solid ;
+}
+/* / */
+
+/* header part 2 */
+
+.home-header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff6600;
+    padding: 1.5vh 8vw;}
+
+.home-header-nav-left{
+    padding-left: 1vw;
+}
+
+.home-header-nav-left-logo
+{
+    font-size: 2vw;
+    border-left: 10px #e96b56 solid;
+    padding-left: 1vw;
+}
+
+.home-header-nav-hambutton
+{
+    display: none;
+}
+
+.home-header-nav-right
+{
+    display: flex;
+}
+
+
+.home-header-nav-right-item
+{
+    padding: 1vw 1vw;
+    display: flex;
+    align-items: center;
+}
+
+.separat
+{
+    display: flex;
+    align-items: center;
+    gap: 1.5vw;
+}
+
+.dropdown-og
+{
+    padding-bottom: 6vh; 
+}
+
+.home-header-nav-right-dropdown-menu
+{
+    display: none;
+    background-color: white;
+    position: absolute;
+    flex-direction: column;
+    box-shadow: 0px 0px 1px black;
+    transition: all 0.5s;
+    padding-block: 1vh;
+}
+
+.drop-padding
+{
+    padding: 10px;
+    display: flex;
+}
+
+.home-header-nav-right-dropdown-DeepDropdown-menu
+{
+    display: none;
+    background-color: white;
+    position:absolute;
+    width: max-content;
+    right: 100%;
+    top: 19%;
+    flex-direction: column;
+    box-shadow: 0px 0px 1px black;
+    transition: all 0.5s;
+    padding-block: 1vh;
+}
+
+.deep-drop-padding
+{
+    padding: 10px;
+    padding-right: 4vw;
+    display: flex;
+}
+
+.home-header-nav-right-dropdown:hover ~  .home-header-nav-right-dropdown-menu
+{
+    display: flex;
+}
+
+.home-header-nav-right-dropdown-menu:hover
+{
+    display: flex;
+}
+
+.home-header-nav-right-dropdown-DeepDropdown:hover ~ .home-header-nav-right-dropdown-DeepDropdown-menu
+{
+    display: flex;
+}
+
+.home-header-nav-right-dropdown-DeepDropdown-menu:hover
+{
+    display: flex;
+}
+/* fin header part 2 */
+
+/* * */
