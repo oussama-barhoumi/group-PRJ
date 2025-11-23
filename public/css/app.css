@@ -153,6 +153,9 @@
 
 /* *common items */
 
+.text-color{
+    color: #2b2b2b;
+}
 a
 {
     text-decoration: none;
@@ -533,6 +536,23 @@ li>svg
 }
 
 
-
-
 /* *fin mid3 */
+
+
+
+/* *mid5 */
+
+.scroller
+{
+    display: flex;
+    gap: 2vw;
+    overflow-x: auto;
+    scroll-snap-type:  x mandatory;
+}
+
+.card
+{
+    flex: 0 0 250px;
+}
+
+/* *fin mid5 */
