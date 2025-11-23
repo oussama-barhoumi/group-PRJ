@@ -247,7 +247,68 @@ html{
     display: flex;
     justify-content: space-between;
 }
+@media (max-width:430px){
+    .MainServices {
+        flex-direction: column;
+        justify-content: unset;
+        align-items: unset;
+        width: 100%;
+    }
+    .MainServices .OurServices div{
+        width: 100%;
+        
+    }
 
+    .OurSkills{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-inline: 13px;
+        margin-inline: unset;
+    }
+
+    .RightSkills{
+        width: 100%;
+    }
+    .RightSkills .blabla h1{
+        width:100% ;
+    }
+    .MainServices .OurSkills .OurSkills-main{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: unset;
+       
+    }
+    .Services-top{
+        padding: 20px 0 20px .7rem;
+    }
+    .OurSkills-main .SkillsImg img{
+        width: 100%;
+    }
+    .OurSkills .OurSkills-top{
+        width: 100%;
+    }
+   .RightSkills .blabla p {
+    width:100%;
+   }
+       .MainServices .OurSkills .OurSkills-main {
+        
+        width: 100%;
+       }
+        .OurSkills-top h1::after{
+            top: 3.5rem;
+            left: 11rem;
+            height: 2.5px;
+        }
+        .MainServices .OurServices{
+            display: grid;
+            width: 100%;
+            padding-inline: 10px;
+        }
+    
+}
 /* *common items */
 
 a
