@@ -311,6 +311,9 @@ html{
 }
 /* *common items */
 
+.text-color{
+    color: #2b2b2b;
+}
 a
 {
     text-decoration: none;
@@ -623,9 +626,6 @@ ul
 }
 
 
-
-
-
 .mid2-item:nth-child(1)
 {
     animation-delay: 0s;
@@ -699,9 +699,6 @@ li>svg
     font-size: 1.5vw; 
 }
 
-
-
-
 /* *fin mid3 */
 
 .font-st{
@@ -740,6 +737,76 @@ li>svg
         color: white;
         transition: 0.3s;
     }
+
+    /* *mid5 */
+    
+    .mid5
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-inline: 10vw;
+        text-align: center;
+        position: relative;
+        gap: 5vh;
+    }
+
+    .mid5-h2::after
+    {
+        content: "";
+
+        display: block;
+        width: 55%;
+        margin-top: 3vh;
+        margin-left: 25%;
+        border-bottom: 3px #ff6600 solid;
+    }
+
+    .scroller
+    {
+        display: flex;
+        width: 100%;
+        overflow-x: auto;
+        
+    }
+    
+    .group
+    {
+        
+        display: flex;
+        animation: spin 20s infinite linear;
+    }
+
+    .card
+    {
+        width: 30vw;
+    }
+  
+    .card>img
+    {
+        width: 7vw;
+        filter: grayscale(100%);
+    }
+
+    .card>img:hover
+    {
+        filter: grayscale(0%);
+    }
+
+
+    @keyframes spin {
+        from    
+        {
+            translate: 0;
+        }
+
+        to
+        {
+            translate: -100%;
+        }
+    }
+    
+    /* *fin mid5 */
 
     .contact{
         padding: 4rem 7rem ;
