@@ -931,3 +931,43 @@ li>svg
 .SendMessage textarea::placeholder{
     color: lightgray;
 }
+@media (max-width:768px){
+    .contact{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+    }
+    .CallUs-Email{
+        flex-direction: column;
+    }
+    .CallUs-Email .Call-Us ,.CallUs-Email .Email-Us{
+        width: 100%;
+    }
+    .SendMessage .Name-Email{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .SendMessage .Name-Email input{
+        width: 100%;
+    }
+
+
+    .input-footer{
+        background-color: #464646;
+        border: #333;
+        border-radius: 10vw;
+        width: 60vw;
+        height: 4vh;
+        position: relative;
+    }
+    .btn-footer{
+        background: rgb(221, 106, 68);
+        color: aliceblue;
+        border-radius: 10vw;
+        height: 8vw;
+        width: 19vw;
+        border:none;
+        position: absolute;
+        left: 63.5vw;
+        margin-right: 2vw;
+}
