@@ -1189,3 +1189,167 @@ li>svg
     }
     
     /* * */
+    .contact{
+        padding: 4rem 7rem ;
+        display: grid;
+        grid-template-rows: 10rem 25rem ;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px 30px;
+    }
+    .contact div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        box-shadow: 0px 0px 16px 5px rgba(0,0,0,0.05);
+    }
+    .contact .CallUs-Email{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        column-gap: 30px;
+        box-shadow: unset;
+        /* background-color: rebeccapurple; */
+    }
+    .CallUs-Email .Call-Us ,.CallUs-Email .Email-Us{
+        
+        /* background-color: red; */
+        height: 100%;
+
+    }
+    .contact i{
+        font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-size: 24px;
+        color: #E96B56;
+        line-height: 36px;
+        font-weight: 400;
+        
+    }
+    .contact .icon-box{
+        margin-bottom: 10px;
+        width: 55px;
+        height: 55px;
+        border: #E96B56 dotted 1.6px;
+        border-radius: 50%;
+    }
+ 
+    .contact div h3{
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21.6px;
+        color: #545454;
+    }
+    .contact div p{
+        font-size: 14px;
+        line-height: 21px;
+        font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", 'Roboto' , "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-weight: 400;
+        color: #444444;
+    }
+    .CallUs-Email{
+        box-shadow: unset;
+    }
+    .SendMessage{
+        padding: 30px;
+        gap: 25px;
+    }
+    .SendMessage form{
+        width: 100%;
+    }
+    .SendMessage .Name-Email input{
+        width: 50%;
+        height: 45px;
+    }
+    .Name-Email{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 25px;
+    }
+    .Subject{
+        width: 100%;
+    }
+    .Subject input{
+        width: 100%;
+        height: 45px;
+    }
+    textarea{
+        width: 100%;
+        height: 10rem;
+    }
+    .contact .SendMessage button{
+        border: none;
+        background-color: #E96B56;
+        color: #fff;
+        font-size:16px;
+        font-weight: 400;
+        line-height: 24px;
+        box-shadow: unset;
+    }
+    .button-box{
+        padding: 10px 30px;
+        border: none;
+        border-radius: 30px;
+        background-color: #E96B56;
+        color: #fff;
+    }
+    .SendMessage form input , textarea{
+        padding: 10px;
+        border: lightgray solid 1px;
+        transition: .2s;
+        outline: none;
+    }
+    .SendMessage form input:focus{
+        border: #E96B56 solid 1px;
+    }
+    .SendMessage form input::placeholder{
+        color: lightgray;
+    }
+    .SendMessage textarea:focus{
+        border: #E96B56 solid 1px;
+    }
+.SendMessage textarea::placeholder{
+    color: lightgray;
+}
+@media (max-width:768px){
+    .contact{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+    }
+    .CallUs-Email{
+        flex-direction: column;
+    }
+    .CallUs-Email .Call-Us ,.CallUs-Email .Email-Us{
+        width: 100%;
+    }
+    .SendMessage .Name-Email{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .SendMessage .Name-Email input{
+        width: 100%;
+    }
+
+
+    .input-footer{
+        background-color: #464646;
+        border: #333;
+        border-radius: 10vw;
+        width: 60vw;
+        height: 4vh;
+        position: relative;
+    }
+    .btn-footer{
+        background: rgb(221, 106, 68);
+        color: aliceblue;
+        border-radius: 10vw;
+        height: 8vw;
+        width: 19vw;
+        border:none;
+        position: absolute;
+        left: 63.5vw;
+        margin-right: 2vw;
+}
+}
